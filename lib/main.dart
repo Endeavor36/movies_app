@@ -16,9 +16,9 @@ class _MyAppState extends State<MyApp> {
   int index = 0;
 
   final screens = [
-    MoviesScreen(),
-    InsertScreen(),
-    SettingsScreen(),
+    const MoviesScreen(),
+    const InsertScreen(),
+    const SettingsScreen(),
   ];
 
   @override
